@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>TMA1</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="shared/jeverus.css" media="screen" />
+</head>
+
+<body>
+    
+  
+  <header>
+      
+    
+      <div class="head">
+        
+          <a href="index.php"><img class="bol" src="shared/jeverus.png" alt="bol"></a>
+        
+            <nav>
+                
+                <ul>
+                    <li><a href="" >Part 4</a></li>
+                    <li><a href="">Part 3</a></li>
+                    <li><a href="" id="page">Part 2</a></li>
+                    <li><a href="" >Part 1</a></li>
+                </ul>
+                    
+            </nav>
+        
+      </div>
+    
+  </header>
+    
+    
+    <div class="diverse">
+    <div class="right">
+        
+            <div class="titles">
+                
+	 	<div class="createaccount"><h1>Welcome.</h1></div>
+		<div class="createaccount"><h1>Learn how to build advanced client-side web application features using:</h1></div>
+
+		<ul>
+                    <li class="createaccount">HTML5</a></li>
+                    <li class="createaccount">CSS3</a></li>
+                    <li class="createaccount">JavaScript</a></li>
+                    <li class="createaccount">JSON</a></li>
+                    <li class="createaccount">XML</a></li>
+                    <li class="createaccount">AJAX</a></li>
+                </ul>
+            
+            </div>
+            
+            
+    </div>
+    <div id="sept2"></div>
+    
+        
+        <script>
+  
+            var roller = $("#sept2");
+            var backgrounds = ["url(shared/image11.jpg)", "url(shared/image10.jpg)", "url(shared/image6.jpg)"];
+            var current = 0;
+            
+            function nextBackground() {
+                current++;
+                current = current % backgrounds.length;
+                roller.css('background-image', backgrounds[current]);
+            }
+
+            setInterval(nextBackground, 3000);
+
+            roller.css('background-image', backgrounds[0]);
+  
+        </script>
+        
+    </div>
+    
+    
+  
+    <div id="container">
+        <div class="copyright"><h2><br>In this feature-specific tutorial, we learn how to build some HTML5 and CSS3 features.</h2>
+            <a href=""><button class="button2" onclick="window.open('tutorial1.htm')">Launch Tutorial 1</button></a></div>
+            <div class="seriediv">
+                <div class="arch"></div>
+                <div class="counts"><div class="number">2</div><div class="content-type">Gradient <br> features</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">Transition <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">WebKit animation <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">Rotate <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">Responsivity <br> feature</div></div>
+
+	
+
+            </div>
+        <div class="grey"></div>
+        <div class="copyright"><h2><br>In this feature-specific tutorial, we learn how to incorporate JSON into our JavaScript.</h2>
+            <a href=""><button class="button2" onclick="window.open('tutorial2.htm')">Launch Tutorial 2</button></a></div>
+            <div class="seriediv">
+                <div class="arch"></div>
+                <div class="counts"><div class="number">5</div><div class="content-type">Event <br> features</div></div>
+                <div class="counts"><div class="number">6</div><div class="content-type">addEventListener <br> features</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">Bubbling and Capturing <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">multiple events <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">resize event <br> feature</div></div>
+            </div>
+
+
+
+
+        <div class="grey"></div>
+        <div class="copyright"><h2><br>In this feature-specific tutorial, we learn how to use some AJAX and XML features.</h2>
+            <a href=""><button class="button2" onclick="window.open('tutorial3.htm')">Launch Tutorial 3</button></a></div>
+            <div class="seriediv">
+                <div class="arch"></div>
+                <div class="counts"><div class="number">2</div><div class="content-type">XMLHttpRequest <br> features</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">responseXML <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">getElementByTagName <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">JSON.parse(responseText) <br> feature</div></div>
+                <div class="counts"><div class="number">1</div><div class="content-type">JSON selector <br> feature</div></div>
+	</div>
+
+        
+    </div>
+  
+  
+  <footer>
+    
+      
+    <div class="copyright">
+        
+        <div class="footnotes"><h4>Tutorials</h4>
+          <a class="notes" href=""><p>Tutorial 1</p></a>
+          <a class="notes" href=""><p>Tutorial 2</p></a>
+          <a class="notes" href=""><p>Tutorial 3</p></a>
+        </div>
+      <div class="footnotes"><h4>Utilities</h4>
+          <a class="notes" href=""><p>Mortgage Calculator</p></a>
+          <a class="notes" href=""><p>Savings Estimator</p></a>
+          <a class="notes" href=""><p>Measurement Converter</p></a>
+      </div>
+      <div class="footnotes"><h4>Parts</h4>
+          <a class="notes" href=""><p>Part 1</p></a>
+          <a class="notes" href=""><p>Part 2</p></a>
+          <a class="notes" href=""><p>Part 3</p></a>
+          <a class="notes" href=""><p>Part 4</p></a>
+      </div>
+      <div class="footnotes"><h4>External References</h4>
+          <a class="notes" href=""><p>HTML5</p></a>
+          <a class="notes" href=""><p>CSS3</p></a>
+          <a class="notes" href=""><p>JavaScript</p></a>
+          <a class="notes" href=""><p>JSON</p></a>
+          <a class="notes" href=""><p>XML</p></a>
+          <a class="notes" href=""><p>AJAX</p></a>
+      </div>
+      <div class="footnotes"><h4>Contact</h4>
+          <a class="notes" href=""><p>Support</p></a>
+          <a class="notes" href=""><p>Enquiries</p></a>
+          <a class="notes" href=""><p>Jobs</p></a>
+      </div>
+        <hr>
+        <p>&copy; 2017. Jeffrey Ajiri Osauzo. All Rights Reserved.</p>
+        <p>Developed by @ajirios | Jeffrey Ajiri Osauzo.</p>
+    </div>
+    
+    
+  </footer>
+
+</body>
+</html>
